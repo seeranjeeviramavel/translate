@@ -5,4 +5,4 @@ ENV WITH_MODELS=$with_models
 
 EXPOSE 5000
 
-CMD ["libretranslate"]
+CMD ["python3", "-m", "libretranslate"]
